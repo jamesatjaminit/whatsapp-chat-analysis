@@ -45,7 +45,8 @@ export const ARGS_OPTIONS: commandLineUsage.OptionDefinition[] = [
 export const USAGE_SECTIONS: commandLineUsage.Section[] = [
   {
     header: "Whatsapp Chat Analysis",
-    content: "Calculates the number of messages sent matching a search term",
+    content:
+      "A tool to calculate the frequency of messages sent in a whatsapp chat",
   },
   {
     header: "Options",
